@@ -50,7 +50,7 @@ const Projects = () => {
 						title="Grands Crus"
 						backgroundImg={wineShopImg}
 						projectUrl="/wineshop"
-						tech="React JS"
+						tech="Next JS"
 					/>
 					<ProjectItem
 						title="Bag Creator"
@@ -62,7 +62,7 @@ const Projects = () => {
 						title="Lake of Cakes"
 						backgroundImg={cakeShopImg}
 						projectUrl="/cakeshop"
-						tech="React JS"
+						tech="Bootstrap/JQuery"
 					/>
 					<ProjectItem
 						title="Comfy Sloth"

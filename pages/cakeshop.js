@@ -4,7 +4,7 @@ import cakeImg from "../public/assets/projects/cake.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Property = () => {
+const CakeShop = () => {
 	return (
 		<div className="w-full">
 			<div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -17,8 +17,8 @@ const Property = () => {
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">Cake Shop</h2>
-					<p>Angular JS / D3 JS</p>
+					<h2 className="py-2">Lake of Cakes</h2>
+					<p>Bootstrap / JQuery</p>
 				</div>
 			</div>
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,28 +26,24 @@ const Property = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						This app was built using React JS and styled completely with
-						Tailwind CSS. The application is hosted statically using Github
-						Pages. It&apos;s Mobile first responsive design approach using
-						flexbox and grid layouts. Pulling all of the data and images from
-						the data.js file to simulate an API response. A few features to note
-						with this project is user can filter through data and images using
-						the javascript filter array method.
+						This app is built using React JS and Bootstrap. 
+						Users can buy and reserve cakes at any time. Also this app 
+						interface is not only clean and beautiful but convenient for users.
 					</p>
-					<a
+					{/* <a
 						target="_blank"
 						rel="noreferrer"
 						href="https://github.com/breadhead313/refugees-statistics"
 					>
 						<button className="px-8 py-2 mt-4 mr-8">Code</button>
-					</a>
-					{/* <a
+					</a> */}
+					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://simbaig.github.io/foodApp-react/"
+						href="https://lakeofcakes.com/"
 					>
 						<button className="px-8 py-2 mt-4">Demo</button>
-					</a> */}
+					</a>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
 					<div className="p-2">
@@ -55,11 +51,19 @@ const Property = () => {
 						<div className="grid grid-cols-3 md:grid-cols-1">
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Angular
+								HTML/CSS
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								D3 JS
+								Bootstrap
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" />
+								JQuery
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" />
+								Hammer JS
 							</p>
 						</div>
 					</div>
@@ -72,4 +76,4 @@ const Property = () => {
 	);
 };
 
-export default Property;
+export default CakeShop;

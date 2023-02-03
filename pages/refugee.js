@@ -18,7 +18,7 @@ const Property = () => {
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
 					<h2 className="py-2">Refugees Stats</h2>
-					<p>Angular JS / D3 JS</p>
+					<p>React JS / D3 JS / Chart JS</p>
 				</div>
 			</div>
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,13 +26,10 @@ const Property = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						This app was built using React JS and styled completely with
-						Tailwind CSS. The application is hosted statically using Github
-						Pages. It&apos;s Mobile first responsive design approach using
-						flexbox and grid layouts. Pulling all of the data and images from
-						the data.js file to simulate an API response. A few features to note
-						with this project is user can filter through data and images using
-						the javascript filter array method.
+						This app is built using React JS and D3 JS. This application show you refugees 
+						stats intuitively with various type of chart such as area chart, bar chart, 
+						bubble chart, doughnut and pie charts, line chart, mixed chart, polar area 
+						chart, radar chart, scatter chart.
 					</p>
 					<a
 						target="_blank"
@@ -55,11 +52,15 @@ const Property = () => {
 						<div className="grid grid-cols-3 md:grid-cols-1">
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Angular
+								React
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
 								D3 JS
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" />
+								Chart JS
 							</p>
 						</div>
 					</div>

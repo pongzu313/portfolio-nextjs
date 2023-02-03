@@ -17,8 +17,8 @@ const Camelot = () => {
 					alt="/"
 				/>
 				<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-					<h2 className="py-2">Refugees Stats</h2>
-					<p>Angular JS / D3 JS</p>
+					<h2 className="py-2">Camelot</h2>
+					<p>Vue JS / D3 JS</p>
 				</div>
 			</div>
 			<div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,28 +26,26 @@ const Camelot = () => {
 					<p>Project</p>
 					<h2>Overview</h2>
 					<p>
-						This app was built using React JS and styled completely with
-						Tailwind CSS. The application is hosted statically using Github
-						Pages. It&apos;s Mobile first responsive design approach using
-						flexbox and grid layouts. Pulling all of the data and images from
-						the data.js file to simulate an API response. A few features to note
-						with this project is user can filter through data and images using
-						the javascript filter array method.
+						Camelot is an ecosystem-focused and community-driven DEX built on Arbitrum.
+						Camelot has been built as a highly efficient and customizable protocol, 
+						allowing both builders and users to leverage our custom infrastructure for deep, 
+						sustainable, and adaptable liquidity. Camelot moves beyond the traditional design 
+						of DEXs to focus on offering a tailored approach that prioritises composability.
 					</p>
-					<a
+					{/* <a
 						target="_blank"
 						rel="noreferrer"
 						href="https://github.com/breadhead313/refugees-statistics"
 					>
 						<button className="px-8 py-2 mt-4 mr-8">Code</button>
-					</a>
-					{/* <a
+					</a> */}
+					<a
 						target="_blank"
 						rel="noreferrer"
-						href="https://simbaig.github.io/foodApp-react/"
+						href="https://app.camelot.exchange/"
 					>
 						<button className="px-8 py-2 mt-4">Demo</button>
-					</a> */}
+					</a>
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
 					<div className="p-2">
@@ -55,11 +53,15 @@ const Camelot = () => {
 						<div className="grid grid-cols-3 md:grid-cols-1">
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								Angular
+								Vue JS
 							</p>
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />
-								D3 JS
+								core-js
+							</p>
+							<p className="text-gray-600 py-2 flex items-center">
+								<RiRadioButtonFill className="pr-1" />
+								Ethers
 							</p>
 						</div>
 					</div>
